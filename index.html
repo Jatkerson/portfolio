@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="css/mainStyles.css" rel="stylesheet" type="text/css">
+    <title>James Atkerson - Portfolio</title>
+  </head>
+  
+	<body>
+	
+	
+		<!-- TOP MENU -->
+		<?php loadTopMenu(); ?>
+		
+
+		<!-- GAME PREVIEW CONTAINER -->
+		<div id='gamePreviewContainer'>
+
+			<div id='ruinRegionsPreviewContainer' class='gamePreviewContainer'>
+			
+				<a href='ruinregions.php' id='firstGamePreviewTitle' class='gamePreviewTitle gamePreview1'>Ruin Regions</a>
+			
+				<img src='images/oldRuinStudiosSite.png' id='gamePreview1Image1' class='gamePreviewImage gamePreviewLowerRightImage gamePreview1' />
+				<img src='images/ruinAlphaPreview.png' id='gamePreview1Image2' class='gamePreviewImage gamePreviewUpperLeftImage gamePreview1' />
+				<img src='images/ruinPreview.png' id='gamePreview1Image3' class='gamePreviewImage gamePreviewLowerLeftImage gamePreview1' />
+				<img src='images/ruinRegionsPreview.png' id='gamePreview1Image4' class='gamePreviewImage gamePreviewUpperRightImage gamePreview1' />
+			
+			
+			</div>
+			
+			<div id='conjuringPreviewContainer' class='gamePreviewContainer'>
+			
+				<a href='conjuring.php' id='secondGamePreviewTitle' class='gamePreviewTitle gamePreview2'>Conjuring</a>
+			
+				<img src='images/oldRuinStudiosSite.png' id='gamePreview2Image1' class='gamePreviewImage gamePreviewLowerRightImage gamePreview2' />
+				<img src='images/ruinAlphaPreview.png' id='gamePreview2Image2' class='gamePreviewImage gamePreviewUpperLeftImage gamePreview2' />
+				<img src='images/ruinPreview.png' id='gamePreview2Image3' class='gamePreviewImage gamePreviewLowerLeftImage gamePreview2' />
+				<img src='images/ruinRegionsPreview.png' id='gamePreview2Image4' class='gamePreviewImage gamePreviewUpperRightImage gamePreview2' />
+			
+			</div>
+			
+			<div id='ruinAlphaPreviewContainer' class='gamePreviewContainer'>
+			
+				<a id='thirdGamePreviewTitle' class='gamePreviewTitle gamePreview3'>Ruin Alpha</a>
+			
+				<img src='images/oldRuinStudiosSite.png' id='gamePreview3Image1' class='gamePreviewImage gamePreviewLowerRightImage gamePreview3' />
+				<img src='images/ruinAlphaPreview.png' id='gamePreview3Image2' class='gamePreviewImage gamePreviewUpperLeftImage gamePreview3' />
+				<img src='images/ruinPreview.png' id='gamePreview3Image3' class='gamePreviewImage gamePreviewLowerLeftImage gamePreview3' />
+				<img src='images/ruinRegionsPreview.png' id='gamePreview3Image4' class='gamePreviewImage gamePreviewUpperRightImage gamePreview3' />
+			
+			</div>
+		
+		
+		</div>
+		
+		
+		<div id='indexMain'>
+		
+			<div class='indexArticle textAlignCenter'>
+				<div id='homePageKersonGamesContainer'>
+					<h1 class='homePageHeading1'>What Is Kerson Games</h1>
+					<p class='indexArticleParagraph'>We are an indie HTML5 game development group that designs free to play online games. All Kerson Games are designed with an emphasis on creating gameplay that requires a high level of diplomatic strategy amoungst players. Our free to play games borrow the best features of the Real Time Strategy (RTS), Turn Based Strategy (TBS) and Online Role Playing Games (ORPG) genres to create online games with depth. Kerson Games are developed in web languages that work in all modern browsers and do not require an installation process or additional plugins to play.</p>
+				</div>
+
+				
+			</div>
+			
+			<div class='indexArticle' id="homePageNewsContainer">
+			
+			</div>
+			
+		
+			<div class='indexArticle'>
+				<div class='leftFloatContainer'>
+					<h1 class='homePageHeading1'>Free Kerson Games Account</h1>
+					<p class='indexArticleParagraph'>Create a Kerson Games account to gain access to all of the FREE browser based games currently in development including <span class='ruinRegionsLightColor'>Ruin Regions</span>, <span class='ruinAlphaLightColor'>Ruin Alpha</span> and <span class='conjuringLightColor'>Conjuring</span>. Contribute your thoughts, engage with other players and directly with the developers on the Kerson Games forums.</p>
+				</div>
+				
+				<div id='indexCreateAccountContainer'>
+				
+					<h1 id='indexRegisterHeading'>Create Free Account</h1>
+					
+					<div class='indexRegisterInputContainer'>
+						<label class='indexRegisterLabel' for='indexRegisterName'>Account Name</label>
+						<input type='text' id='indexRegisterName' class='indexRegisterInput' maxlength='20' size='10'/>
+					</div>
+					
+					<div class='indexRegisterInputContainer'>
+						<label class='indexRegisterLabel' for='indexRegisterEmail'>Email</label>
+						<input type='text' id='indexRegisterEmail' class='indexRegisterInput' maxlength='20' size='10'/>
+					</div>
+
+					<div class='indexRegisterInputContainer'>
+						<label class='indexRegisterLabel' for='indexRegisterPassword'>Password</label>
+						<input type='password' id='indexRegisterPassword' class='indexRegisterInput' maxlength='20' size='10'/>
+					</div>
+					
+					<div class='indexRegisterInputContainer'>
+						<button id='indexRegisterButton' class='buttonStyle'>Register</button>
+					</div>
+					
+				
+				</div>
+				
+				
+			</div>
+			
+		
+		</div>
+		
+	
+		<!-- FOOTER CONTENT -->
+		<?php loadFooterContent(); ?>
+	
+
+
+		
+		
+	</body>
+</html>
