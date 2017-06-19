@@ -1,9 +1,12 @@
 *{
 	margin: 0px;
 	padding: 0px;
-  display: block;
   font-family: 'Roboto Slab', serif;
   overflow: hidden;
+}
+
+header, body, section, footer, aside, nav, article, hgroup, div{
+  display: block;	
 }
 
 html{
